@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Kotlin-basicSyntax.iml" filepath="$PROJECT_DIR$/.idea/Kotlin-basicSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kotlin-basicSyntax-tmp.iml" filepath="$PROJECT_DIR$/Kotlin-basicSyntax-tmp.iml" />
     </modules>
   </component>
 </project>
