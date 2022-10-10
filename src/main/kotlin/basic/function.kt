@@ -1,7 +1,10 @@
+package basic
+
 fun main() {
     add(1, 2)
     addShortHand(1, 2)
 }
+
 /**
  * 関数
  * 戻り値の型は省略可能

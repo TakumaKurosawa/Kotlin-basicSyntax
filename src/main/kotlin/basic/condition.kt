@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     val id = 1
 

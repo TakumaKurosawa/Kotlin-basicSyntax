@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     val person = Person()
     person.sayName("John")
@@ -39,6 +41,7 @@ class PersonWithConstructor(private val name: String) {
 open class Animal {
     open fun cry() = println("---")
 }
+
 class Dog : Animal() {
     override fun cry() = println("Bow-wow")
 }
@@ -51,6 +54,7 @@ class Dog : Animal() {
 sealed class SameFile {
     abstract fun openFile() // openFile() の実装を強制する
 }
+
 class FileA : SameFile() {
     override fun openFile() = println("Open File A") // overrideしていないとコンパイルエラー
 }

@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     val english = EnglishGreeter()
     english.sayHello()
@@ -22,6 +24,7 @@ class EnglishGreeter : Greeter {
         println("Hello")
     }
 }
+
 class JapaneseGreeter : Greeter {
     override fun sayHello() {
         println("こんにちは")
